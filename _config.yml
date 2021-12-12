@@ -12,6 +12,6 @@ gems:
 markdown: kramdown
 
 comment: 
-	provider: "disqus"
-	dusqus:
-		shortname: "icandothisallday"
+  provider: "disqus"
+  dusqus:
+    shortname: "icandothisallday"
