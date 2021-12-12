@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "About Githu page"
+title: "About Github page"
 date: 2021-12-12 23:45:18 +0900
 categories: jekyll update
-----
+comments: true
+---
 
 # Github page?
 

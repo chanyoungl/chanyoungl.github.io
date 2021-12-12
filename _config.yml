@@ -10,3 +10,8 @@ gems:
 
 #Others
 markdown: kramdown
+
+comment: 
+	provider: "disqus"
+	dusqus:
+		shortname: "icandothisallday"
