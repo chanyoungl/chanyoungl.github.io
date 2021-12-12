@@ -1,0 +1,12 @@
+# Setup
+name:         Welcome to My World!
+tagline:      유레카 프로젝트 기말과제 Github Blog 만들기 과제
+baseurl:      ""
+locale:       "kr"
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown

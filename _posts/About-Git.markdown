@@ -1,0 +1,39 @@
+---
+layout: post
+title: "About Githu page"
+date: 2021-12-12 23:45:18 +0900
+categories: jekyll update
+----
+
+# Github page?
+
+우선 Github page를 사용하기 전에 간략하게 Webpage에 대한 이해가 필요하다
+
+### Statice Webpage ? Dynamic Webpage ?
+
+static? dynamic? 직관적으로 해석해본 다면 정적인, 차분한? 동적인, 활발한? 으로 해석할 수 있다.
+정적인 Webpage?
+동적인 Webpage?
+
+아하! 정적인 Webpage는 이미 만들어진 HTML 같은 문서를 요청에 따라 전달해주기만 하는 것!
+아하! 동적인 Webpage는 만들어진 HTML뿐만 아니라 클라이언트의 요청에 의해 추가적인 더 많은 웹문서들을 다른 page에 요청해서 갖고오는것!
+
+정적이니까 별다른 움직임 없이, 동적이니까 많은 움직임을 가지고 이곳 저곳 많은 웹페이지들 연결해주는 역할을 한다!
+
+### 그렇다면 Github page는 뭘까?
+
+WebSite를 만들기 위해서는 정말 많은 것들이 필요하다. Database를 처리할 수 있는 프로그램이 필요하고, Packaging도 해야하고
+할일이 너무 많다. 인터넷이 점차 발달하면서 클라이언트들의 요청이 다양해지면서 이미 만들어 놓은 문서만 전달해주는 WebSite, Webpage는 줄어드는 추세이기 때문에 위와 같이 점점 할 일이 많아진다. 결국 위의 모든 과정들은 동적인 프로그램이라는 것이다. 그러면 Github page는?? 정적일까 동적일까??
+
+### Github page
+
+Github page를 이용해서 Website를 만들고 Webpage를 만드는데 필요한 많은 과정들을 전부 걷어낼 수 있다. Github repo를 통해 Webpage를 만들 수 있고, 이를 이용해 지금 보는 것과 같은 Blog를 작성할 수 있다.
+
+### 어떻게 만들지?
+1. Github에서 우선적으로 Repo를 만든다.
+    * Repo의 이름은 <username>.github.io
+2. Local - Remote Repository를 연동한다
+    * git clone OR git remote
+3. Blog에 올릴 다양한 문서들을 작성한다.
+    * html, markdown 파일 등
+4. git commit을 남기고, git push로 원격저장소에 반영한다
